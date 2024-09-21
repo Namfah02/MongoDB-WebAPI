@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "6626f00f1754edd258bb612f"
+  },
+  "datetime": {
+    "$date": "2024-04-22T23:17:35.427Z"
+  },
+  "description": "The weather reading has been successfully deleted.",
+  "reading": {
+    "_id": {
+      "$oid": "6626efdc5fc7432563c7d8fa"
+    },
+    "deviceName": "Woodford_Sensor",
+    "precipitation": 0.085,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "time": {
+      "$date": "2024-04-22T23:16:44.136Z"
+    },
+    "atmosphericPressure": 128.02,
+    "humidity": 73.84,
+    "maxWindSpeed": 4.94,
+    "solarRadiation": 113.21,
+    "temperature": 22.74,
+    "vaporPressure": 1.73,
+    "windDirection": 155.6
+  }
+},
+{
+  "_id": {
+    "$oid": "6626f2551754edd258c3a847"
+  },
+  "datetime": {
+    "$date": "2024-04-22T23:27:17.410Z"
+  },
+  "description": "The weather reading has been successfully deleted.",
+  "reading": {
+    "_id": {
+      "$oid": "6626f2525fc7432563c7d8fe"
+    },
+    "deviceName": "Woodford_Sensor",
+    "precipitation": 0.085,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "time": {
+      "$date": "2024-04-22T23:27:14.806Z"
+    },
+    "atmosphericPressure": 128.02,
+    "humidity": 173.84,
+    "maxWindSpeed": 4.94,
+    "solarRadiation": 113.21,
+    "temperature": 22.74,
+    "vaporPressure": 1.73,
+    "windDirection": 155.6
+  }
+},
+{
+  "_id": {
+    "$oid": "6626f31e1754edd258c688f7"
+  },
+  "datetime": {
+    "$date": "2024-04-22T23:30:38.997Z"
+  },
+  "description": "The weather reading has been successfully deleted.",
+  "reading": {
+    "_id": {
+      "$oid": "6626f30e5fc7432563c7d8ff"
+    },
+    "deviceName": "Woodford_Sensor",
+    "precipitation": 0.085,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "time": {
+      "$date": "2024-04-22T23:30:36.385Z"
+    },
+    "atmosphericPressure": 128.02,
+    "humidity": 73.84,
+    "maxWindSpeed": 4.94,
+    "solarRadiation": 113.21,
+    "temperature": 122.74,
+    "vaporPressure": 1.73,
+    "windDirection": 155.6
+  }
+},
+{
+  "_id": {
+    "$oid": "6626f33b1754edd258c6f7b8"
+  },
+  "datetime": {
+    "$date": "2024-04-22T23:31:07.578Z"
+  },
+  "description": "The weather reading has been successfully deleted.",
+  "reading": {
+    "_id": {
+      "$oid": "6626f3385fc7432563c7d900"
+    },
+    "deviceName": "Woodford_Sensor",
+    "precipitation": 0.085,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "time": {
+      "$date": "2024-04-22T23:31:04.966Z"
+    },
+    "atmosphericPressure": 128.02,
+    "humidity": 73.84,
+    "maxWindSpeed": 4.94,
+    "solarRadiation": 113.21,
+    "temperature": -122.74,
+    "vaporPressure": 1.73,
+    "windDirection": 155.6
+  }
+}]

@@ -1,0 +1,219 @@
+components:
+  schemas:
+    WeatherReading:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: 65cea708cdd7c5a4c305bc4d
+        deviceName:
+          type: string
+          example: Woodford_Sensor
+        precipitation:
+          type: number
+          nullable: true
+          example: 0.085
+        latitude:
+          type: number
+          example: 152.77891
+        longitude:
+          type: number
+          example: -26.95064
+        time:
+          type: string
+          format: date-time
+        atmosphericPressure:
+          type: number
+          nullable: true
+          example: 128.02
+        humidity:
+          type: number
+          nullable: true
+          example: 73.84
+        maxWindSpeed:
+          type: number
+          nullable: true
+          example: 4.94
+        solarRadiation:
+          type: number
+          nullable: true
+          example: 113.21
+        temperature:
+          type: number
+          nullable: true
+          example: 22.74
+        vaporPressure:
+          type: number
+          nullable: true
+          example: 1.73
+        windDirection:
+          type: number
+          nullable: true
+          example: 155.6
+    NewWeatherReading:
+      type: object
+      properties:
+        deviceName:
+          type: string
+          example: Woodford_Sensor
+        precipitation:
+          type: number
+          example: 0.085
+        latitude:
+          type: number
+          example: 152.77891
+        longitude:
+          type: number
+          example: -26.95064
+        atmosphericPressure:
+          type: number
+          example: 128.02
+        humidity:
+          type: number
+          example: 73.84
+        maxWindSpeed:
+          type: number
+          example: 4.94
+        solarRadiation:
+          type: number
+          example: 113.21
+        temperature:
+          type: number
+          example: 22.74
+        vaporPressure:
+          type: number
+          example: 1.73
+        windDirection:
+          type: number
+          example: 155.6
+    UpdateWeatherReading:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: 65cea708cdd7c5a4c305bc4d
+        deviceName:
+          type: string
+          example: Woodford_Sensor
+        precipitation:
+          type: number
+          example: 0.085
+        latitude:
+          type: number
+          example: 152.77891
+        longitude:
+          type: number
+          example: -26.95064
+        atmosphericPressure:
+          type: number
+          example: 128.02
+        humidity:
+          type: number
+          example: 73.84
+        maxWindSpeed:
+          type: number
+          example: 4.94
+        solarRadiation:
+          type: number
+          example: 113.21
+        temperature:
+          type: number
+          example: 22.74
+        vaporPressure:
+          type: number
+          example: 1.73
+        windDirection:
+          type: number
+          example: 155.6
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: 65cea708cdd7c5a4c305bc4d
+        firstName:
+          type: string
+          example: John
+        lastName:
+          type: string
+          example: Doe
+        email:
+          type: string
+          format: email
+          example: web@test.com
+        password:
+          type: string
+          format: password
+          example: Password123!
+        role:
+          type: string
+          enum: 
+          - admin
+          - teacher
+          - sensor
+          - student
+        createdDate:
+          type: string
+          format: date-time
+        lastLoggedIn:
+          type: string
+          nullable: true
+          format: date-time
+        authenticationKey:
+          type: string
+          nullable: true
+          example: cda4d726-139f-4d58-9957-7d0838ce8ae1
+    NewUser:
+      type: object
+      properties:
+        firstName:
+          type: string
+          example: John
+        lastName:
+          type: string
+          example: Doe
+        email:
+          type: string
+          format: email
+          example: web@test.com
+        password:
+          type: string
+          format: password
+          example: Password123!
+        role:
+          type: string
+          enum: 
+          - admin
+          - teacher
+          - sensor
+          - student
+    UpdateUser:
+      type: object
+      properties:
+        _id:
+          type: string
+          example: 65cea708cdd7c5a4c305bc4d
+        firstName:
+          type: string
+          example: John
+        lastName:
+          type: string
+          example: Doe
+        email:
+          type: string
+          format: email
+          example: web@test.com
+        password:
+          type: string
+          format: password
+          example: Password123!
+        role:
+          type: string
+          enum: 
+          - admin
+          - teacher
+          - sensor
+          - student
+
+
+
