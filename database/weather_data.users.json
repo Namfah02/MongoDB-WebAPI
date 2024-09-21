@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6616066995d5d2fa0a80e666"
+  },
+  "firstName": "Admin",
+  "lastName": "Web",
+  "email": "admin@web.com",
+  "password": "$2a$10$yYIgMqkjrMFcFuF0q4f6ouX5NSyZZz3ikhZHjmXkJwmak98u09DLS",
+  "role": "admin",
+  "createdDate": {
+    "$date": "2024-02-10T03:24:25.514Z"
+  },
+  "lastLoggedIn": {
+    "$date": "2024-04-23T22:59:56.972Z"
+  },
+  "authenticationKey": "dcdbca88-fbb8-462e-882a-1fc3df0de4c5"
+},
+{
+  "_id": {
+    "$oid": "66190e20f0dafd154d7dd701"
+  },
+  "firstName": "Student",
+  "lastName": "Web",
+  "email": "student@web.com",
+  "password": "$2a$10$w42m/Ub.kbNiRsHWW0DMiuoo.fbeAF3h984Ii31kb5cJJwOo5qXzm",
+  "role": "student",
+  "createdDate": {
+    "$date": "2024-04-12T10:34:08.767Z"
+  },
+  "lastLoggedIn": null,
+  "authenticationKey": null
+},
+{
+  "_id": {
+    "$oid": "66190e20f0dafd154d7dd6ff"
+  },
+  "firstName": "Teacher",
+  "lastName": "Web",
+  "email": "teacher@web.com",
+  "password": "$2a$10$lyTiUqMblNxeeHMFqJMH5uATrmLrzuNYKVKHlk5aLB5KedWdgiJsS",
+  "role": "teacher",
+  "createdDate": {
+    "$date": "2024-04-12T10:34:08.572Z"
+  },
+  "lastLoggedIn": null,
+  "authenticationKey": null
+},
+{
+  "_id": {
+    "$oid": "66190e20f0dafd154d7dd700"
+  },
+  "firstName": "Sensor",
+  "lastName": "Web",
+  "email": "sensor@web.com",
+  "password": "$2a$10$iWD4JajtA.i9HMRXVzwyyuniqyHL81bpCRPI/.22V/c.OhdRGzTvW",
+  "role": "sensor",
+  "createdDate": {
+    "$date": "2024-04-12T10:34:08.671Z"
+  },
+  "lastLoggedIn": null,
+  "authenticationKey": null
+},
+{
+  "_id": {
+    "$oid": "6624a056684b4c2cea086361"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@doe.com",
+  "password": "$2a$10$pedOWVLd5eCKa2UsWFsOP.7.t9DWlkG9vex/OU8w0cK/AhLc59FMa",
+  "role": "student",
+  "createdDate": {
+    "$date": "2024-04-21T05:12:54.221Z"
+  },
+  "lastLoggedIn": {
+    "$date": "2024-04-21T05:13:29.264Z"
+  },
+  "authenticationKey": "3a9336eb-3514-4498-8ff2-272a571d7542"
+},
+{
+  "_id": {
+    "$oid": "6624a065684b4c2cea086362"
+  },
+  "firstName": "Jessy",
+  "lastName": "Lee",
+  "email": "jessy@lee.com",
+  "password": "$2a$10$FaAnyLP3iDRD1IgRX1/fWOinLmawhq1/OSuDfjOPZ8ozb8xkYFNPq",
+  "role": "student",
+  "createdDate": {
+    "$date": "2024-04-21T05:13:09.792Z"
+  },
+  "lastLoggedIn": {
+    "$date": "2024-04-23T23:11:31.107Z"
+  },
+  "authenticationKey": "7db2fa95-45b6-4b2e-a9b7-9ee41b481d49"
+}]
